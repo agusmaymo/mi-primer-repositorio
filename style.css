@@ -1,15 +1,68 @@
+/*CSS DOCUMENT*/
 @charset "UTF-8";
 
-.ul-nav{
-    background-color:violet;}
+/*configuraciones generales*/
 
-.ul-nav .li-nav{
+@font-face {
+    font-family: "Recoleta-Thin";
+    src: url(fonts/Recoleta/Recoleta-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Recoleta-Light";
+    src: url(fonts/Recoleta/Recoleta-Light.ttf);
+}
+
+@font-face {
+    font-family: "Recoleta-Regular";
+    src: url(fonts/Recoleta/Recoleta-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Recoleta-Medium";
+    src: url(fonts/Recoleta/Recoleta-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Recoleta-SemiBold";
+    src: url(fonts/Recoleta/Recoleta-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Recoleta-Bold";
+    src: url(fonts/Recoleta/Recoleta-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Recoleta-Black";
+    src: url(fonts/Recoleta/Recoleta-Black.ttf);
+}
+/*PREGUNTA SOBRE LO DE ARRIBA ↑: acá deberia si o si cargar una font de google fonts similar para que reemplace a Recoleta en caso de que en algun momento falle? y puedo hacer que conviva con la Sour Gummy que elegí para esos textitos que quiero destacar (como el "Hola! soy Agus Maymo" del hero?*/
+
+/*aplicaciones*/
+
+* {
+    font-family: 'Recoleta-Regular', Times, serif;
+}
+
+body{
+    background-color: #a828b1;
+    color: whitesmoke;
+}
+header{
+    width: 1920px;
+}
+.ul-nav {
+    background-color: #fcb64d;
+}
+
+.ul-nav .li-nav {
     width: 1260px;
     height: 50px;
-    color:aliceblue;
+    color: whitesmoke;
     text-decoration: none;
     list-style: none;
-       
+
 }
 
 .a-nav {
@@ -18,31 +71,33 @@
     text-decoration: none;
 }
 
-.li-nav{
+.li-nav {
     height: 50px;
     width: 170px;
 }
 
-.hero-Sobre-mi{
-    background-color:blueviolet;
-    color: white;
+.hero-Sobre-mi {
+    background-color: #ffbee6;
+    color: #a828b1;
 }
 
-.Habilidades{
-    background-color:blueviolet;
-    color: white;}
-.habilidades h3{
+.hero-Sobre-mi h3 {
+    font-family: "Sour Gummy", sans-serif;
+    font-style: normal;
+}
+
+.habilidades h3 {
     font-weight: bold;
 }
 
-.ul-nav-footer{
-    background-color:black
+.ul-nav-footer {
+    background-color: #6cae75;
 }
 
-.ul-nav-footer .li-footer{
+.ul-nav-footer .li-footer {
     width: 1260px;
     height: 50px;
-    color:aliceblue;
+    color: whitesmoke;
     text-decoration: none;
     list-style: none;
 }
@@ -53,7 +108,11 @@
     text-decoration: none;
 }
 
-.li-footer{
+.li-footer {
     height: 50px;
-    width: 170px;
+    width: 170px;}
+
+.trabajemos-juntos a {
+    text-decoration: none;
+    color: whitesmoke;
 }
