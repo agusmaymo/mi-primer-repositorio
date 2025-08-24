@@ -5,38 +5,25 @@
 
 @font-face {
     font-family: "Recoleta-Thin";
-    src: url(fonts/Recoleta/Recoleta-Thin.ttf);
-}
-
+    src: url(fonts/Recoleta/Recoleta-Thin.ttf);}
 @font-face {
     font-family: "Recoleta-Light";
-    src: url(fonts/Recoleta/Recoleta-Light.ttf);
-}
-
+    src: url(fonts/Recoleta/Recoleta-Light.ttf);}
 @font-face {
     font-family: "Recoleta-Regular";
-    src: url(fonts/Recoleta/Recoleta-Regular.ttf);
-}
-
+    src: url(fonts/Recoleta/Recoleta-Regular.ttf);}
 @font-face {
     font-family: "Recoleta-Medium";
-    src: url(fonts/Recoleta/Recoleta-Medium.ttf);
-}
-
+    src: url(fonts/Recoleta/Recoleta-Medium.ttf);}
 @font-face {
     font-family: "Recoleta-SemiBold";
-    src: url(fonts/Recoleta/Recoleta-SemiBold.ttf);
-}
-
+    src: url(fonts/Recoleta/Recoleta-SemiBold.ttf);}
 @font-face {
     font-family: "Recoleta-Bold";
-    src: url(fonts/Recoleta/Recoleta-Bold.ttf);
-}
-
+    src: url(fonts/Recoleta/Recoleta-Bold.ttf);}
 @font-face {
     font-family: "Recoleta-Black";
-    src: url(fonts/Recoleta/Recoleta-Black.ttf);
-}
+    src: url(fonts/Recoleta/Recoleta-Black.ttf);}
 /*PREGUNTA SOBRE LO DE ARRIBA ↑: acá deberia si o si cargar una font de google fonts similar para que reemplace a Recoleta en caso de que en algun momento falle? y puedo hacer que conviva con la Sour Gummy que elegí para esos textitos que quiero destacar (como el "Hola! soy Agus Maymo" del hero?*/
 
 /*aplicaciones*/
@@ -49,9 +36,14 @@ body{
     background-color: #a828b1;
     color: whitesmoke;
 }
+
+
+
 header{
     width: 1920px;
 }
+
+
 .ul-nav {
     background-color: #fcb64d;
 }
@@ -62,7 +54,6 @@ header{
     color: whitesmoke;
     text-decoration: none;
     list-style: none;
-
 }
 
 .a-nav {
@@ -76,6 +67,8 @@ header{
     width: 170px;
 }
 
+
+
 .hero-Sobre-mi {
     background-color: #ffbee6;
     color: #a828b1;
@@ -86,9 +79,44 @@ header{
     font-style: normal;
 }
 
+
+
 .habilidades h3 {
     font-weight: bold;
 }
+
+
+
+.experiencia{
+    background-color: #fcb64d;
+}
+
+
+
+.herramientas {
+    background-color: #6cae75;
+}
+
+
+
+.trabajemos-juntos{
+    background-color: black;
+}
+.trabajemos-juntos a {
+    color: whitesmoke;
+    text-decoration: none;}
+
+
+    
+.a-footer {
+    height: 50px;
+    width: 170px;
+    text-decoration: none;
+}
+
+.li-footer {
+    height: 50px;
+    width: 170px;}
 
 .ul-nav-footer {
     background-color: #6cae75;
@@ -100,19 +128,4 @@ header{
     color: whitesmoke;
     text-decoration: none;
     list-style: none;
-}
-
-.a-footer {
-    height: 50px;
-    width: 170px;
-    text-decoration: none;
-}
-
-.li-footer {
-    height: 50px;
-    width: 170px;}
-
-.trabajemos-juntos a {
-    text-decoration: none;
-    color: whitesmoke;
 }
