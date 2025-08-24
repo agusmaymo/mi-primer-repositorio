@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.ul-nav{
+    background-color:violet;
+}
+
 .ul-nav .li-nav{
     list-style: none;
 }
@@ -7,6 +11,8 @@
 .ul-nav .li-nav{
     width: 1260px;
     height: 50px;
+    color:aliceblue;
+    text-decoration: none;
        
 }
 
@@ -14,8 +20,6 @@
     height: 50px;
     width: 170px;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #415088;
 }
 
 .li-nav{
