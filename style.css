@@ -1,18 +1,14 @@
 @charset "UTF-8";
 
 .ul-nav{
-    background-color:violet;
-}
-
-.ul-nav .li-nav{
-    list-style: none;
-}
+    background-color:violet;}
 
 .ul-nav .li-nav{
     width: 1260px;
     height: 50px;
     color:aliceblue;
     text-decoration: none;
+    list-style: none;
        
 }
 
@@ -34,12 +30,30 @@
 
 .Habilidades{
     background-color:blueviolet;
-    color: white;
-}
-
-.Habilidades h3 p{
-    font-
-}
+    color: white;}
 .habilidades h3{
     font-weight: bold;
+}
+
+.ul-nav-footer{
+    background-color:black
+}
+
+.ul-nav-footer .li-footer{
+    width: 1260px;
+    height: 50px;
+    color:aliceblue;
+    text-decoration: none;
+    list-style: none;
+}
+
+.a-footer {
+    height: 50px;
+    width: 170px;
+    text-decoration: none;
+}
+
+.li-footer{
+    height: 50px;
+    width: 170px;
 }
