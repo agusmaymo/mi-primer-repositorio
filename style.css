@@ -1,8 +1,9 @@
 /*CSS DOCUMENT*/
 @charset "UTF-8";
 
-/*configuraciones generales*/
+/*-----------TIPOGRAFÍAS-----------*/
 
+/* RECOLETA*/
 @font-face {
     font-family: "Recoleta-Thin";
     src: url(fonts/Recoleta/Recoleta-Thin.ttf);}
@@ -23,69 +24,99 @@
     src: url(fonts/Recoleta/Recoleta-Bold.ttf);}
 @font-face {
     font-family: "Recoleta-Black";
-    src: url(fonts/Recoleta/Recoleta-Black.ttf);}
-/*PREGUNTA SOBRE LO DE ARRIBA ↑: acá deberia si o si cargar una font de google fonts similar para que reemplace a Recoleta en caso de que en algun momento falle? y puedo hacer que conviva con la Sour Gummy que elegí para esos textitos que quiero destacar (como el "Hola! soy Agus Maymo" del hero?*/
+    src: url(fonts/Recoleta/Recoleta-Black.ttf);} 
 
-/*aplicaciones*/
+/*FUENTE SECUNDARIA: PLAYFAIR DISPLAY*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Yeseva+One&display=swap');
+
+/*-----------CONFIGURACIONES GENERALES-----------*/
 
 * {
-    font-family: 'Recoleta-Regular', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    border-radius: 10px;
+    padding: 1vh;
 }
 
 body{
+    font-family: 'Recoleta-Medium', 'PlayFair Display' , serif;
     background-color: #a828b1;
     color: whitesmoke;
 }
 
 
+/*-----------HEADER-----------*/
 
-header{
-    width: 1920px;
+#logo-agus-maymo{
+    width: 200px;
+    padding-right: 2vw;
+}
+
+#barra-navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
 }
 
 
-.ul-nav {
+.flex-container {
+  /*  border-color: #fcb64d;
+    border-width: 2px;
+    border-style: solid;*/
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a828b1;
     background-color: #fcb64d;
-}
-
-.ul-nav .li-nav {
-    width: 1260px;
-    height: 50px;
-    color: whitesmoke;
-    text-decoration: none;
     list-style: none;
-}
-
-.a-nav {
-    height: 50px;
-    width: 170px;
     text-decoration: none;
+    margin: 5px 5px;
+    height: 15px;
+    font-weight: bolder;
+    flex:auto;
 }
 
-.li-nav {
-    height: 50px;
-    width: 170px;
+.flex-container li{
+    margin: 0 10px;
 }
 
 
+/*-----------MAIN-----------*/
 
 .hero-Sobre-mi {
+    display: flex;
     background-color: #ffbee6;
     color: #a828b1;
 }
 
-.hero-Sobre-mi h3 {
-    font-family: "Sour Gummy", sans-serif;
-    font-style: normal;
+#foto-perfil{
+    height: 50vh;
+
 }
 
-
-
+.grilla-habilidades{
+    display: flex;
+    justify-content: space-evenly;
+}
 .habilidades h3 {
     font-weight: bold;
 }
 
-
+.habilidad-dg .habilidad-am .habilidad-cm .habilidad-ph {
+    flex-basis: 0;
+}
 
 .experiencia{
     background-color: #fcb64d;
@@ -107,24 +138,23 @@ header{
     text-decoration: none;}
 
 
+/*-----------FOOTER----------- */
+
+.ul-nav-footer {
+    background-color: #6cae75;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
     
 .a-footer {
-    height: 50px;
-    width: 170px;
     text-decoration: none;
 }
 
 .li-footer {
-    height: 50px;
-    width: 170px;}
 
-.ul-nav-footer {
-    background-color: #6cae75;
-}
-
-.ul-nav-footer .li-footer {
-    width: 1260px;
-    height: 50px;
     color: whitesmoke;
     text-decoration: none;
     list-style: none;

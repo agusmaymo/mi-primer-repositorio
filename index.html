@@ -5,76 +5,78 @@
     <meta charset="utf-8" />
     <title> Agustina Maymo - Diseñadora gráfica y Comunicadora Visual </title>
     <link href="style.css" rel="stylesheet" type="text/css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-    </style>
 </head>
 
 <body>
     <header>
-        <!--La barra de navegacion es para scrollear para abajo dentro de la misma página-->
-        <a href="index.html" target="_self">
-            <img src="images/logo-agus-maymo.png" alt="Logo Agus Maymo" width="10%">
-        </a>
-        <ul class="ul-nav">
-            <a class="a-nav" href="index.html" target="_self">
-                <li class="li-nav">Home</li>
+        <section id="barra-navegacion">
+            <a href="index.html" target="_self">
+                <img id="logo-agus-maymo" src="images/logo-agus-maymo.png" alt="Logo Agus Maymo">
             </a>
-            <a class="a-nav" href="#" target="_self">
-                <li class="li-nav">Sobre mí</li>
-            </a>
-            <a class="a-nav" href="#" target="_self">
-                <li class="li-nav">Habilidades</li>
-            </a>
-            <a class="a-nav" href="#" target="_self">
-                <li class="li-nav">Experiencia Laboral</li>
-            </a>
-            <a class="a-nav" href="#" target="_self">
-                <li class="li-nav">Herramientas</li>
-            </a>
-            <a class="a-nav" href="#" target="_self">
-                <li class="li-nav">Contacto</li>
-            </a>
-        </ul>
-
+            <nav class="flex-container">
+                <a href="index.html" target="_self">
+                    <li>Home</li>
+                </a>
+                <a href="#" target="_self">
+                    <li>Sobre mí</li>
+                </a>
+                <a href="#" target="_self">
+                    <li>Habilidades</li>
+                </a>
+                <a href="#" target="_self">
+                    <li>Experiencia</li>
+                </a>
+                <a href="#" target="_self">
+                    <li>Herramientas</li>
+                </a>
+                <a href="#" target="_self">
+                    <li>Contacto</li>
+                </a>
+            </nav>
+        </section>
     </header>
     <main>
         <section class="hero-Sobre-mi">
             <!--El "Sobre mí" y algunos otros textos pequeños queria mostrarlos mas "orgánicos", como si lo hubiese escrito a mano, por ahora implemento otra font pero no descarto hacer la foto directamente con la intervención del texto encima para más adelante-->
-            <h2> SOBRE MÍ</h2>
-            <img src="images/foto-perfil-agus-maymo.png" alt="foto-perfil-agus-maymo" width="300px">
-            <h3>Hola! soy Agus Maymo</h3>
-            <p>soy diseñadora gráfica y comunicadora visual y hace más de 5 años me especializo en la identidad y comunicación visual en redes sociales de negocios y emprendimientos.
-            Mi objetivo es acompañar a las marcas en sus metamorfósis hacia su mejor versión, dándoles una identidad y comunicación efectiva y auténtica que les permita, no solo destacarse en el mercado, sino también conectar con su comunidad.</p>
+            <article>
+                <h2> SOBRE MÍ</h2>
+                <img id="foto-perfil" src="images/foto-perfil-agus-maymo.png" alt="foto de perfil Agus Maymo">
+                <h3>Hola! soy Agus Maymo</h3>
+                <p>soy diseñadora gráfica y comunicadora visual y hace más de 5 años me especializo en la identidad y
+                    comunicación visual en redes sociales de negocios y emprendimientos.
+                    Mi objetivo es acompañar a las marcas en sus metamorfósis hacia su mejor versión, dándoles una
+                    identidad y comunicación efectiva y auténtica que les permita, no solo destacarse en el mercado,
+                    sino también conectar con su comunidad.</p>
+            </article>
         </section>
 
-        <section class="Habilidades">
+        <section class="habilidades">
             <h2>HABILIDADES</h2>
-            <div class="grilla-habilidades">
-                <div class="habilidad-dg">
+            <article class="grilla-habilidades">
+                <article class="habilidad-dg">
                     <h3>Diseño gráfico</h3>
                     <p>Con especialización en diseño de contenido para redes sociales y branding, y en constante
                         relación con las nuevas tecnologías y los distintos ámbitos en donde el diseño se encuentra
                         presente</p>
-                </div>
-                <div class="habilidad-AM">
+                </article>
+                <article class="habilidad-am">
                     <h3>Account Manager</h3>
                     <p>Entiendo la importancia de ser intermediaria entre el equipo de trabajo y el negocio para lograr
                         grandes resultados, mediando objetivos pero también bajando a tierra las estrategias.</p>
-                </div>
-                <div class="habilidad-CM">
+                </article>
+                <article class="habilidad-cm">
                     <h3>Community Manager</h3>
                     <p>Mi prioridad siempre es la comunidad, como generarla y que elija quedarse con nosotros por
                         nuestro diferencial y calidad de servicio post venta, apostando a que vuelvan a ser clientes con
                         nuevos productos o servicios.</p>
-                </div>
-                <div class="habilidad-fotografía">
+                </article>
+                <article class="habilidad-ph">
                     <h3>Fotografía</h3>
                     <p>Mis inicios en el mundo creativo y de comunicación visual me hicieron conectar con lo que puede
                         transmitir una simple foto, por lo que uno de mis pilares es el foco de qué comunican las
                         fotografías incluso cuando no hay un mensaje directo en ellas.</p>
-                </div>
-            </div>
+                </article>
+            </article>
         </section>
 
         <!--Section 3: EXPERIENCIA. Quizá un carru que enlace algunos posteos de Behance? o directamente plasmar la experiencia con algunas empresas? A DEFINIR-->
@@ -89,7 +91,7 @@
 
         <!--El Mail y el whatsapp van a ser botones con el ícono y la descripción, ¿los hago como imagenes + a o hay otra forma dentro del mismo html para que se vea como un botón? mientras tanto lo dejo así-->
         <section class="trabajemos-juntos">
-            <h1>¡TRABAJEMOS JUNTOS!</h1>
+            <h2>¡TRABAJEMOS JUNTOS!</h2>
             <a href="mailto:micorreo@gmail.com?Subject=Hola%20Agus%20que%20%tal">Mail</a>
             <a href="#">whatsapp</a>
         </section>
