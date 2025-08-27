@@ -40,7 +40,7 @@
 }
 
 body{
-    font-family: 'Recoleta-Medium', 'PlayFair Display' , serif;
+    font-family: 'Recoleta-Semibold', 'PlayFair Display' , serif;
     background-color: #a828b1;
     color: whitesmoke;
 }
@@ -54,6 +54,8 @@ body{
 }
 
 #barra-navegacion{
+    
+
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -93,12 +95,22 @@ body{
 }
 
 
-/*-----------MAIN-----------*/
+/*----------- QUIÉN SOY -----------*/
 
-.hero-Sobre-mi {
-    display: flex;
+#hero {
     background-color: #ffbee6;
     color: #a828b1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quien-soy {
+    font-family: "Recoleta-Semibold";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #foto-perfil{
@@ -106,6 +118,7 @@ body{
 
 }
 
+/*----------- HABILIDADES -----------*/
 .grilla-habilidades{
     display: flex;
     justify-content: space-evenly;
@@ -118,19 +131,19 @@ body{
     flex-basis: 0;
 }
 
-.experiencia{
+#experiencia{
     background-color: #fcb64d;
 }
 
 
 
-.herramientas {
+#herramientas {
     background-color: #6cae75;
 }
 
 
 
-.trabajemos-juntos{
+#trabajemos-juntos{
     background-color: black;
 }
 .trabajemos-juntos a {
