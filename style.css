@@ -1,7 +1,9 @@
 /*CSS DOCUMENT*/
 @charset "UTF-8";
 
-/*-----------TIPOGRAFÍAS-----------*/
+/*---------------------------------
+-----------TIPOGRAFÍAS-----------
+---------------------------------*/
 
 /* RECOLETA*/
 @font-face {
@@ -46,62 +48,64 @@ body{
 }
 
 
-/*-----------HEADER-----------*/
+/*--------------------------------
+-------------HEADER---------------
+---------------------------------*/
 
 #logo-agus-maymo{
-    width: 200px;
-    padding-right: 2vw;
+    width: 300px;
 }
 
 #barra-navegacion{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;}
 
+#nav-left{
+    display: flex;
+    align-items: center;
+    gap: 14px;
 }
 
 .flex-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:center;
     align-items: center;
-
+    gap: 14px;
+    margin: 0;
+    padding: 0;
 }
 
 .flex-container a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #fcb64d;
-    list-style: none;
-    text-decoration: none;
     padding: 10px 20px;
-    
-}
-
-.flex-container li{
-    margin: 0 10px;
     border-color: #fcb64d;
     border-radius: 3;
     border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.flex-container li{
+    list-style: none;
+    margin: 0;
+
 }
 
 #contacto{
     color: #a828b1;
     background-color: #fcb64d;
+    padding: 10px 18px;
+    font-family: "Recoleta-Black";
     list-style: none;
     text-decoration: none;
-    margin: 5px 5px;
-    height: 15px;
-    padding: 10px 20px;
-    font-family: "Recoleta-Black";
     margin-left: auto;
     display: flex;
-    justify-content: center;
     align-items:center;
+    justify-content: center;
 }
 
 #contacto a{
@@ -111,41 +115,61 @@ body{
 }
 
 
-/*----------- QUIÉN SOY -----------*/
+/*-------------------------------
+-----------QUIÉN SOY-------------
+---------------------------------*/
 
 #hero {
     background-color: #ffbee6;
     color: #a828b1;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .quien-soy {
     font-family: "Recoleta-Semibold";
-    display: flex;
+    max-width: 500px;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
 
 #foto-perfil{
     height: 50vh;
+    padding: 0 30px 0 0;
+    border-radius: 20px;
 
 }
 
-/*----------- HABILIDADES -----------*/
+/*---------------------------------
+-----------HABILIDADES-------------
+---------------------------------*/
+
 .grilla-habilidades{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+
 }
+
+#grilla-habilidades article{
+    padding: 25px;
+
+}
+
 .habilidades h3 {
     font-weight: bold;
 }
 
-.habilidad-dg .habilidad-am .habilidad-cm .habilidad-ph {
-    flex-basis: 0;
-}
+/*---------------------------------
+-----------EXPERIENCIA-------------
+---------------------------------*/
 
 #experiencia{
     background-color: #fcb64d;
@@ -167,7 +191,9 @@ body{
     text-decoration: none;}
 
 
-/*-----------FOOTER----------- */
+/*---------------------------------
+-----------FOOTER------------------
+--------------------------------- */
 
 .ul-nav-footer {
     background-color: #6cae75;
