@@ -38,11 +38,10 @@
     padding: 0;
     box-sizing: content-box;
     border-radius: 10px;
-    padding: 1vh;
 }
 
 body{
-    font-family: 'Recoleta-Semibold', 'PlayFair Display' , serif;
+    font-family: 'Recoleta-Medium', 'PlayFair Display' , serif;
     background-color: #a828b1;
     color: whitesmoke;
 }
@@ -61,7 +60,9 @@ body{
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    padding: 2vh;
+}
 
 #nav-left{
     display: flex;
@@ -99,7 +100,7 @@ body{
     color: #a828b1;
     background-color: #fcb64d;
     padding: 10px 18px;
-    font-family: "Recoleta-Black";
+    font-family: 'Recoleta-Black','PlayFair Display' , serif;
     list-style: none;
     text-decoration: none;
     margin-left: auto;
@@ -125,11 +126,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 2vh;
 }
 
 .quien-soy {
-    font-family: "Recoleta-Semibold";
     max-width: 500px;
     /*display: flex;
     flex-direction: column;
@@ -148,24 +148,36 @@ body{
 -----------HABILIDADES-------------
 ---------------------------------*/
 
-.grilla-habilidades{
+#habilidades {
+    margin: 2vh;
+    padding: 1vh, 1vh, 1vh, 13vh;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+/*      align-content: flex-start;*/
+}
+
+.grilla-habilidades{
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
+    align-content: space-between;
+}
+/*
+.grilla-habilidades h2{
+    padding: 2vh;
+}*/
 
-
+.grilla-habilidades article{
+    max-width: 500px;
+    /*padding: 2vh;*/
 }
 
-#grilla-habilidades article{
-    padding: 25px;
 
-}
-
-.habilidades h3 {
-    font-weight: bold;
-}
 
 /*---------------------------------
 -----------EXPERIENCIA-------------
@@ -208,8 +220,8 @@ body{
     text-decoration: none;
 }
 
-.li-footer {
-
+.li-footer{
+    
     color: whitesmoke;
     text-decoration: none;
     list-style: none;
