@@ -43,7 +43,7 @@
 body{
     font-family: 'Recoleta-Medium', 'PlayFair Display' , serif;
     background-color: #a828b1;
-    color: whitesmoke;
+    color: whitesmoke;               
 }
 
 
@@ -126,7 +126,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2vh;
+    padding: 2vh;            
 }
 
 .quien-soy {
@@ -155,7 +155,7 @@ body{
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: center;
-    align-items: flex-start;
+    align-items: flex-start;   
 /*      align-content: flex-start;*/
 }
 
