@@ -43,7 +43,12 @@
 body{
     font-family: 'Recoleta-Medium', 'PlayFair Display' , serif;
     background-color: #a828b1;
-    color: whitesmoke;               
+    color: whitesmoke;    
+    margin: 2vh;
+}
+
+body h2{
+    text-align: center;
 }
 
 
@@ -125,21 +130,16 @@ body{
     color: #a828b1;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 2vh;            
+    align-items: center;           
 }
 
 .quien-soy {
     max-width: 500px;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
 }
 
 #foto-perfil{
     height: 50vh;
-    padding: 0 30px 0 0;
+    padding: 30px;
     border-radius: 20px;
 
 }
@@ -149,32 +149,24 @@ body{
 ---------------------------------*/
 
 #habilidades {
-    margin: 2vh;
-    /*padding: 1vh, 1vh, 1vh, 13vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: center;
-    align-items: flex-start;   
-/*      align-content: flex-start;*/
+    margin: 5vh;
 }
 
 .grilla {
-    height: 30vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     
 }
-/*
-.grilla-habilidades h2{
-    padding: 2vh;
-}*/
 
 .grilla article{
     max-width: 500px;
-    /*padding: 2vh;*/
+    padding: 2vh;
+    margin: 2vh;
+    border: #6cae75;
+    border-style: dashed;
+    border-width: 3px;
 }
 
 
@@ -185,36 +177,37 @@ body{
 
 #experiencia{
     background-color: #fcb64d;
+    padding: 3vh; 
     margin: 2vh;
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: flex-start; */
+    /*justify-content: flex-end;*/ 
 }
 
 #experiencia a{
-    padding: 10px 18px;
+    padding: 10px;
     background-color: #a828b1;
     color: #fcb64d;
-    text-decoration: none;   
+    text-decoration: none;  
+    /*QUISE PONER ESTE BOTÓN A LA DERECHA Y NO ME SALIÓ*/
 }
 
-#experiencia h2{
-    padding: 1vh;
-}
+/*#experiencia h2{
+
+}*/
 
 .grilla-experiencia {
-    height: 20vh;
     display: flex;
-    /*flex-wrap: wrap;*/
     justify-content: center;
     align-items: flex-start;
 }
 
 .grilla-experiencia article{
-    max-width: 16vw;
-    margin: 2vh;
+    max-width: 19vw;
+    margin: 3vh;
+}
+
+.grilla-experiencia img{
+    height: 20vh;
+    border-radius: 10px;
 }
 /*---------------------------------
 -----------HERRAMIENTAS------------
@@ -229,11 +222,30 @@ body{
 ----------------------------------*/
 
 #trabajemos-juntos{
+    margin: 2vh;
+    height: 12vh;
     background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
-.trabajemos-juntos a {
+
+#trabajemos-juntos article{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+#trabajemos-juntos a {
+    margin: 1vh;
     color: whitesmoke;
-    text-decoration: none;}
+    background-color: #a828b1;
+    text-decoration: none;
+    padding: 1vh;
+    align-self: center;
+    
+}
 
 
 /*---------------------------------
@@ -244,13 +256,16 @@ body{
     background-color: #6cae75;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
     
 .a-footer {
     text-decoration: none;
+    margin: 1vh;
+    padding: 1vh;
+
 }
 
 .li-footer{
