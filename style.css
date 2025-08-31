@@ -37,19 +37,20 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    border-radius: 10px;
+    text-wrap: pretty;
+    border-radius: 25px;
+
 }
 
 body{
     font-family: 'Recoleta-Medium', 'PlayFair Display' , serif;
     background-color: #a828b1;
     color: whitesmoke;    
-    margin: 2vh;
 }
 
-body h2{
+/*body h2{
     text-align: center;
-}
+}*/
 
 
 /*--------------------------------
@@ -63,24 +64,17 @@ body h2{
 #barra-navegacion{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 16px;
+    justify-content: center;
+    gap: 10px;
     flex-wrap: wrap;
-    padding: 2vh;
-}
-
-#nav-left{
-    display: flex;
-    align-items: center;
-    gap: 14px;
+    min-width: 40px;
+    margin: 12px;
 }
 
 .flex-container {
     display: flex;
     align-items: center;
     gap: 14px;
-    margin: 0;
-    padding: 0;
 }
 
 .flex-container a{
@@ -93,11 +87,11 @@ body h2{
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    min-width: 80px;
 }
 
 .flex-container li{
     list-style: none;
-    margin: 0;
 
 }
 
@@ -108,7 +102,6 @@ body h2{
     font-family: 'Recoleta-Black','PlayFair Display' , serif;
     list-style: none;
     text-decoration: none;
-    margin-left: auto;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -122,26 +115,44 @@ body h2{
 
 
 /*-------------------------------
------------QUIÉN SOY-------------
+-------------MAIN----------------
 ---------------------------------*/
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    max-width: 1920px;
+    
+}
 
 #hero {
     background-color: #ffbee6;
     color: #a828b1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;           
+    align-items: center;  
+    padding: 5px;        
 }
 
 .quien-soy {
-    max-width: 500px;
+    min-width: 521px;
+    max-width: 521px;
+    padding: 10px;
+}
+
+.quien-soy p {
+    padding: 12px;
 }
 
 #foto-perfil{
-    height: 50vh;
-    padding: 30px;
-    border-radius: 20px;
-
+    height: auto;
+    min-width: 180px;
+    max-width: 300px;
+    padding: 10px;
 }
 
 /*---------------------------------
@@ -149,7 +160,11 @@ body h2{
 ---------------------------------*/
 
 #habilidades {
-    margin: 5vh;
+    margin: 20px;
+}
+
+#habilidades h2{
+    padding: 10px;
 }
 
 .grilla {
@@ -157,13 +172,15 @@ body h2{
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+    max-width: 1700px;
+    gap: 30px;
     
 }
 
 .grilla article{
+    min-width: 300px;
     max-width: 500px;
-    padding: 2vh;
-    margin: 2vh;
+    padding: 20px;
     border: #6cae75;
     border-style: dashed;
     border-width: 3px;
@@ -177,27 +194,21 @@ body h2{
 
 #experiencia{
     background-color: #fcb64d;
-    padding: 3vh; 
+    padding: 3vh;
     margin: 2vh;
-    /*justify-content: flex-end;*/ 
+    display: flex;
+    flex-direction: column;
 }
 
-#experiencia a{
-    padding: 10px;
-    background-color: #a828b1;
-    color: #fcb64d;
-    text-decoration: none;  
-    /*QUISE PONER ESTE BOTÓN A LA DERECHA Y NO ME SALIÓ*/
+#experiencia h2{
+    align-self: flex-start;
 }
-
-/*#experiencia h2{
-
-}*/
 
 .grilla-experiencia {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    align-self: center;
 }
 
 .grilla-experiencia article{
@@ -209,6 +220,21 @@ body h2{
     height: 20vh;
     border-radius: 10px;
 }
+
+#experiencias-y-boton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+#experiencias-y-boton a{
+    padding: 10px;
+    background-color: #a828b1;
+    color: #fcb64d;
+    text-decoration: none;
+    align-self: flex-end;
+    }  
+
 /*---------------------------------
 -----------HERRAMIENTAS------------
 ----------------------------------*/
