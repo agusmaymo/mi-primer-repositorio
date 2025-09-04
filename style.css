@@ -57,8 +57,6 @@ body h2 {
 }
 
 header{
-    display: flex;
-    justify-content: center;
     padding: 20px;
 
 }
@@ -78,10 +76,6 @@ main {
 -------------HEADER---------------
 ---------------------------------*/
 
-#logo-agus-maymo{
-    width: 300px;
-}
-
 #barra-navegacion{
     display: flex;
     align-items: center;
@@ -94,15 +88,11 @@ main {
 
 .flex-container {
     display: flex;
-    align-items: center;
     gap: 14px;
 }
 
 .flex-container li{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 80px;
 }
 
 .flex-container a{
@@ -121,18 +111,8 @@ main {
     background-color: #fcb64d;
     padding: 10px 18px;
     font-family: 'Recoleta-Black','PlayFair Display' , serif;
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    align-items:center;
-    justify-content: center;
 }
 
-#contacto li{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-}
 
 
 /*-------------------------------
@@ -163,9 +143,6 @@ main {
 
 
 #foto-perfil{
-    height: auto;
-    width: 100%;
-    max-width: 300px;
     padding: 10px;
     border-radius: 25px;
 }
@@ -182,21 +159,17 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1700px;
     gap: 10px;
     margin: 10px;
     
 }
 
 #habilidades div{
-    height: fit-content;
-    min-width: 300px;
     max-width: 380px;
     padding: 20px;
     border: #6cae75;
     border-style: dashed;
     border-width: 3px;
-    gap: 10px;
     border-radius: 25px;
 }
 
@@ -210,9 +183,8 @@ main {
     background-color: #fcb64d;
     color: #111111;
     padding: 20px;
-    min-width: 370px;
-    display: flex
-;
+    max-width: 75%;
+    display: flex;
     flex-wrap: wrap;
     gap: 20px;
     border-radius: 25px;
@@ -237,12 +209,12 @@ main {
 
 .grilla-experiencia {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    list-style: none;
 }
 
-.grilla-experiencia div{
+.grilla-experiencia ul{
     min-width: 330px;
     max-width: 288px;
     display: flex;
@@ -265,33 +237,30 @@ main {
 
 #trabajemos-juntos{
     margin: 10px;
-    height: 100px;
+    height: 75px;
     background-color: #111111;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    min-width: 800px;
+    min-width: 80%;
     border-radius: 25px;
+    gap: 20px;
 }
 
 #trabajemos-juntos article{
     display: flex;
-    gap: 30px;
+    gap: 15px;
 }
 
 #trabajemos-juntos a {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     background-color: #a828b1;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     border-radius: 44px;
     
-}
-
-#trabajemos-juntos img{
-    width: 50px;
 }
 
 
