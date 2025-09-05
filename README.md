@@ -1,1 +1,11 @@
-# mi-primer-repositorio
+<h1>Hola! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> soy Agustina Maymo</h1>
+<h2> y esta es mi entrega del tp1 de Compu III</h2>
+
+### Sobre el Trabajo Práctico
+Pensé este proyecto como una presentación complementaria al CV más formal, donde hay información más dura y específica para leer. Me enfoqué en que la comunicación sea desde los logros y habilidades más que desde las herramientas que sé manejar (que, muchas veces, quien está en RRHH no entiende del todo sobre las herramientas y quizá viendo directamente todo en acción resulta más efectivo).
+<br><br>
+Trabajé en 3 computadoras para poder realizar este tp (dos notebooks y una computadora de escritorio) ya que iba intercalando los avances entre la notebook del trabajo y las dos compus de mi casa, lo que me permitió ver constantemente como iba desarrollandose el proyecto en distintos tamaños de pantalla.<br>
+La del trabajo es de en 1920x1080 y las de mi casa _x_ y _x_.
+
+_pd complementaria: no niego ni afirmo que la mayor parte del trabajo estuve así: <img src="https://private-user-images.githubusercontent.com/74038190/240885248-ff1b5f32-9420-4dde-b2b9-ed2c0aa17459.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwNzQwMTMsIm5iZiI6MTc1NzA3MzcxMywicGF0aCI6Ii83NDAzODE5MC8yNDA4ODUyNDgtZmYxYjVmMzItOTQyMC00ZGRlLWIyYjktZWQyYzBhYTE3NDU5LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA1VDEyMDE1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTEzODRjNWMzYjkzOWZiNDE3NmQ2NWMzODJkZjhkZTY0YTdmYTE5NGNjNDQzNTQ5MGI0YWFiNzIwZmM2OTFlZTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Iw_OKbvQuS5ixrScn8tfIFycSMy5bXW_DcQEqOzPq9o" alt="patito-confundido" width="500px"> <br>
+pero, como ingresante 2014 que hace RATO cursó esta materia y le toca recursar para poder aprobarla, estoy disfrutando mucho el proceso (y agradezco que nos hagan sentir acompañados y el tiempo que dedican a explicar)_
