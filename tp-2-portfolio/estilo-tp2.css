@@ -1,0 +1,13 @@
+form {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+        width: 100%;
+        display: block;
+}
+

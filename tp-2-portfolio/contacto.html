@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link href="estilo-tp2.css" rel="stylesheet" type="text/css">
+        <title>Agustina Maymo - Portfolio Diseñadora gráfica</title>
+    </head>
+    <body>
+        <header>
+        <nav id="barra-navegacion">
+            <a>
+                <img id="logo-agus-maymo" src="" alt="Logo Agus Maymo">
+            </a>
+
+            <ul class="flex-container">
+                
+                <li>
+                    <a href="#">Sobre mí</a>
+                </li>
+
+                <li>
+                    <a href="#">Proyectos</a>
+                </li>
+                <li>
+                    <a id="contacto" href="#">Contacto</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+        <main>
+            <h1>CONTACTO</h1>
+            <section>
+                <form method="post" action="mailto:agustina.maymo@gmail.com?subject=Contacto%20Web">
+                    <input type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre y Apellido*" required>
+                    
+                    <input type="email" name="Mail" id="Mail" maxlength="50" placeholder="Mail*" required>
+
+                    <input type="tel" name="Teléfono" id="Teléfono" maxlength="30" placeholder="Teléfono*" required>
+
+                    <input type="text" name="Asunto" id="Asunto" maxlength="50" placeholder="Asunto*" required>
+
+                    <textarea name="Mensaje" id="mensajes" rows="5" placeholder="Mensaje*" required></textarea>
+
+                    <label for="terminos-condiciones">
+                        <input type="checkbox" name="terminos-condiciones" id="terminos-condiciones" required>
+                        *Acepto los Términos de Uso 
+                    </label>
+
+                    <input type="reset" value="Borrar">
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <!--Replicar la del cv pero con las correcciones pertinentes-->
+        </footer>
+    </body>
+</html>
