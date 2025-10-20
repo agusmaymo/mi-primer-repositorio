@@ -1,3 +1,167 @@
+/*CSS DOCUMENT*/
+@charset "UTF-8";
+
+/* RECOLETA*/
+@font-face {
+    font-family: "Recoleta-Thin";
+    src: url(fonts/Recoleta/Recoleta-Thin.ttf);}
+@font-face {
+    font-family: "Recoleta-Light";
+    src: url(fonts/Recoleta/Recoleta-Light.ttf);}
+@font-face {
+    font-family: "Recoleta-Regular";
+    src: url(fonts/Recoleta/Recoleta-Regular.ttf);}
+@font-face {
+    font-family: "Recoleta-Medium";
+    src: url(fonts/Recoleta/Recoleta-Medium.ttf);}
+@font-face {
+    font-family: "Recoleta-SemiBold";
+    src: url(fonts/Recoleta/Recoleta-SemiBold.ttf);}
+@font-face {
+    font-family: "Recoleta-Bold";
+    src: url(fonts/Recoleta/Recoleta-Bold.ttf);}
+@font-face {
+    font-family: "Recoleta-Black";
+    src: url(fonts/Recoleta/Recoleta-Black.ttf)} 
+
+/*FUENTE SECUNDARIA: PLAYFAIR DISPLAY*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Yeseva+One&display=swap');
+
+/*-----------CONFIGURACIONES GENERALES-----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    font-family: 'Recoleta-Medium', 'PlayFair Display' , serif;
+
+
+}
+
+body{
+   background-color: #a828b1;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+body h2 {
+    text-align: center;
+}
+
+header{
+    padding: 20px;
+
+}
+
+section{
+    max-width: 90vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+/*--------------------------------
+-------------HEADER---------------
+---------------------------------*/
+
+#barra-navegacion{
+    display: flex;
+    gap: 50%;
+    margin: 12px;
+    min-width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-nav {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.botones-nav li{
+    display: flex;
+    width: max-content;
+}
+
+.botones-nav a{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: #fcb64d;
+    border-color: #fcb64d;
+    border-style: solid;
+    border-radius: 25px;
+
+}
+
+#contacto{
+    color: #a828b1;
+    background-color: #fcb64d;
+    padding: 10px 18px;
+    font-family: 'Recoleta-Black','Playfair Display' , serif;
+}
+
+/*-------------------------------
+-------------MAIN----------------
+---------------------------------*/
+
+#hero {
+    background-color: #ffbee6;
+    color:#111111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+    padding: 20px;
+    min-width: 800px;
+    gap: 20px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+/*---------------------------------
+-----------FOOTER------------------
+--------------------------------- */
+
+.barra-footer {
+    background-color: #6cae75;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 800px;
+    border-radius: 25px 25px 0px 0px;
+}
+    
+.barra-footer li a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.barra-footer li{
+    list-style: none;
+    margin: 1vh;
+    padding: 1vh
+}
+
+
+
+/*---------------------------------
+-----------PAGINA-CONTACTO-----------
+---------------------------------*/
+
 form {
     width: 100%;
     height: auto;
