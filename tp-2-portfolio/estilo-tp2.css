@@ -65,7 +65,26 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 32px;
     
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    gap: 559px;
+    flex-shrink: 0;
+    background-color: #6cae75;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 800px;
+    border-radius: 25px 25px 0px 0px;
 }
 
 
@@ -115,47 +134,52 @@ main {
 -------------MAIN----------------
 ---------------------------------*/
 
-#hero {
-    background-color: #ffbee6;
-    color:#111111;
+main h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Recoleta;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 70px;
+}
+
+#menu-aventura{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;  
-    padding: 20px;
-    min-width: 800px;
-    gap: 20px;
-    margin: auto;
-    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#menu-aventura img {
+    border-radius: 43px;
 }
 
 /*---------------------------------
 -----------FOOTER------------------
 --------------------------------- */
 
-.barra-footer {
-    background-color: #6cae75;
+#barra-footer {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    min-width: 800px;
-    border-radius: 25px 25px 0px 0px;
-}
+} 
     
-.barra-footer li a{
+#barra-footer li a{
     text-decoration: none;
     color: whitesmoke;
 
 }
 
-.barra-footer li{
+#barra-footer li{
     list-style: none;
     margin: 1vh;
     padding: 1vh
 }
 
+#social-media img {
+    height: 49px;
+}
 
 
 /*---------------------------------
@@ -174,4 +198,3 @@ input {
         width: 100%;
         display: block;
 }
-
