@@ -45,13 +45,16 @@
 
                 <textarea name="Mensaje" id="mensajes" rows="5" placeholder="Mensaje*" required></textarea>
 
-                <label for="terminos-condiciones">
-                    <input type="checkbox" name="terminos-condiciones" id="terminos-condiciones" required>
-                    *Acepto los Términos de Uso
-                </label>
-
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Enviar">
+                <article class="check-botones-form">
+                    <label for="aceptar-terminos-condiciones" id="terminos-condiciones">
+                        <input type="checkbox" name="terminos-condiciones" id="terminos-condiciones" required>
+                        *Acepto los Términos y Condiciones de uso
+                    </label>
+                    <div id="botones-form">
+                        <input id="boton-borrar" type="reset" value="Borrar">
+                        <input id="boton-enviar" type="submit" value="Enviar">
+                    </div>
+                </article>
             </form>
         </section>
     </main>
@@ -74,9 +77,16 @@
             </li>
         </ul>
         <section id="social-media">
-            <img src="images/whatsapp-svgrepo-com.svg">
-            <img src="images/linkedin-svgrepo-com.svg">
-            <img src="images/email-svgrepo-com.svg">
+            <a href="https://wa.me/+5491123945586/">
+                <img src="images/whatsapp-svgrepo-com.svg">
+            </a>
+            <a href="https://www.linkedin.com/in/agusmaymo/">
+                <img src="images/linkedin-svgrepo-com.svg">
+            </a>
+            <a href="mailto:agustina.maymo@gmail.com">
+                <img src="images/email-svgrepo-com.svg">
+            </a>
+
         </section>
     </footer>
 </body>
