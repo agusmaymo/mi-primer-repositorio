@@ -287,12 +287,13 @@ input[type="checkbox"] {
 
 /* Botón borrar */
 #boton-borrar {
-  background-color: #545352;
-  color: #ffffff;
+  background-color: D9D9D9;
+  color: #6A6969;
+  font-weight: bold;
 }
 
 /* Botón enviar */
 #boton-enviar {
-    background-color: #fcb64d;
-     color: #a828b1
+    background-color: #fcb64d; color: #a828b1;
+    font-weight: bold;
 }
