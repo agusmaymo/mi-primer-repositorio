@@ -3,29 +3,38 @@
 
 /* RECOLETA*/
 @font-face {
-    font-family: "Recoleta-Thin";
-    src: url(fonts/Recoleta/Recoleta-Thin.ttf);}
-@font-face {
-    font-family: "Recoleta-Light";
-    src: url(fonts/Recoleta/Recoleta-Light.ttf);}
-@font-face {
     font-family: "Recoleta-Regular";
-    src: url(fonts/Recoleta/Recoleta-Regular.ttf);}
+    src: url(fonts/Recoleta/Recoleta-Regular.ttf);
+}
+
 @font-face {
     font-family: "Recoleta-Medium";
-    src: url(fonts/Recoleta/Recoleta-Medium.ttf);}
+    src: url(fonts/Recoleta/Recoleta-Medium.ttf);
+}
+
 @font-face {
     font-family: "Recoleta-SemiBold";
-    src: url(fonts/Recoleta/Recoleta-SemiBold.ttf);}
+    src: url(fonts/Recoleta/Recoleta-SemiBold.ttf);
+}
+
 @font-face {
     font-family: "Recoleta-Bold";
-    src: url(fonts/Recoleta/Recoleta-Bold.ttf);}
+    src: url(fonts/Recoleta/Recoleta-Bold.ttf);
+}
+
 @font-face {
     font-family: "Recoleta-Black";
-    src: url(fonts/Recoleta/Recoleta-Black.ttf)} 
+    src: url(fonts/Recoleta/Recoleta-Black.ttf);
+}
 
 /*FUENTE SECUNDARIA: PLAYFAIR DISPLAY*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Yeseva+One&display=swap');
+
+/*FUENTE PARA BLOQUES DE TEXTO: INTER*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+
+
 
 /*-----------CONFIGURACIONES GENERALES-----------*/
 
@@ -33,58 +42,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-wrap: pretty;
-    font-family: 'Recoleta-Medium', 'PlayFair Display' , serif;
-
-
+    font-family: 'Recoleta-Medium', 'Playfair Display', serif;
 }
 
-body{
-   background-color: #a828b1;
+body {
+    background-color: #a828b1;
     color: whitesmoke;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
 }
 
-body h2 {
-    text-align: center;
-}
+header {
+    margin: 15px;
+    padding: 0px 150px;
 
-header{
-    padding: 20px;
-
-}
-
-section{
-    max-width: 90vw;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 32px;
-    
+    justify-content:center;
+    margin: 20px;
+    padding: 80px;
 }
 
 footer {
-    display: flex;
-    width: 100%;
-    height: 92px;
-    justify-content: center;
-    align-items: center;
-    gap: 559px;
-    flex-shrink: 0;
     background-color: #6cae75;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding: 15px;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    min-width: 800px;
-    border-radius: 25px 25px 0px 0px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Inter', sans-serif ;
+    font-weight: 500;
 }
 
 
@@ -92,13 +91,10 @@ footer {
 -------------HEADER---------------
 ---------------------------------*/
 
-#barra-navegacion{
+#barra-navegacion {
+    font-weight: 600;
     display: flex;
-    gap: 50%;
-    margin: 12px;
-    min-width: 800px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .botones-nav {
@@ -107,12 +103,12 @@ footer {
     align-items: center;
 }
 
-.botones-nav li{
+.botones-nav li {
     display: flex;
     width: max-content;
 }
 
-.botones-nav a{
+.botones-nav a {
     list-style: none;
     text-decoration: none;
     padding: 10px 40px;
@@ -123,38 +119,68 @@ footer {
 
 }
 
-#contacto{
+#contacto {
     color: #a828b1;
     background-color: #fcb64d;
     padding: 10px 18px;
-    font-family: 'Recoleta-Black','Playfair Display' , serif;
+    font-family: 'Recoleta-Black', 'Playfair Display', serif;
 }
 
 /*-------------------------------
 -------------MAIN----------------
 ---------------------------------*/
 
-main h3 {
-    color: #FFF;
-    text-align: center;
-    font-family: Recoleta;
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 70px;
-}
-
-#menu-aventura{
+#menu-aventura {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 30px;
+    align-items: center;
+    gap: 20px;
 }
 
-#menu-aventura img {
+#menu-aventura article{
+    width: 350px;
+    position: relative;
+}
+#menu-aventura article img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* margin: auto; */
     border-radius: 43px;
+   }
+
+#menu-aventura article .texto-aventura {
+    background: rgba(252, 182, 77, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 43px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: 0.6s;
+
+}
+
+#menu-aventura article .texto-aventura p {
+    margin-bottom: 50px;
+}
+
+#menu-aventura article .texto-aventura:hover {
+    opacity:1;
+}
+
+#menu-aventura article .texto-aventura > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+#menu-aventura article .texto-aventura:hover > *{
+    transform: translateY(0px);
 }
 
 /*---------------------------------
@@ -163,24 +189,34 @@ main h3 {
 
 #barra-footer {
     display: flex;
-} 
-    
-#barra-footer li a{
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 85%;
+    height: 100%;
+}
+
+#barra-footer li a {
     text-decoration: none;
     color: whitesmoke;
 
 }
 
-#barra-footer li{
+#barra-footer li {
     list-style: none;
     margin: 1vh;
-    padding: 1vh
+    padding: 1vh;
+}
+
+#social-media {
+    display: flex;
+    gap: 8px;
 }
 
 #social-media img {
-    height: 49px;
+    height: 40px;
 }
-
 
 /*---------------------------------
 -----------PAGINA-CONTACTO-----------
@@ -195,6 +231,6 @@ form {
 }
 
 input {
-        width: 100%;
-        display: block;
+    width: 100%;
+    display: block;
 }
