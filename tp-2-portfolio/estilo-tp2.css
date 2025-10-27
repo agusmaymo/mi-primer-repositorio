@@ -232,6 +232,48 @@ p {
 }
 
 /*---------------------------------
+-----------PAGINA-SOBRE-MI-----------
+---------------------------------*/
+#hero {
+    background-color: #6cae75;
+    color: #ffffff;
+    font-size: 1.3rem;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 25px;
+    align-items: center;
+    margin: 30px;
+}
+
+#foto-perfil{
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#habilidades {
+    padding: 20px 10px;
+}
+
+#habilidades article{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    
+}
+
+#habilidades div{
+    padding: 20px;
+    width: 500px;
+}
+
+#herramientas img{
+    width: 95px;
+    margin: 10px;
+}
+
+
+/*---------------------------------
 -----------PAGINA-CONTACTO-----------
 ---------------------------------*/
 
