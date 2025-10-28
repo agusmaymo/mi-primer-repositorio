@@ -33,6 +33,7 @@
     </header>
     <main>
         <h1>CONTACTO</h1>
+        <p class="form-intro">¿Tenés una idea o proyecto en mente? Contame un poco sobre vos y coordinemos una charla ✨</p>
         <section>
             <form method="post" action="mailto:agustina.maymo@gmail.com?subject=Contacto%20Web">
                 <input type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre y Apellido*" required>
@@ -42,6 +43,16 @@
                 <input type="tel" name="Teléfono" id="Teléfono" maxlength="30" placeholder="Teléfono*" required>
 
                 <input type="text" name="Asunto" id="Asunto" maxlength="50" placeholder="Asunto*" required>
+
+                <label for="tipo">Tipo de proyecto</label>
+<select id="tipo" name="tipo">
+  <option value="">Seleccioná una opción</option>
+  <option value="identidad">Identidad visual</option>
+  <option value="branding">Estrategia de marca</option>
+  <option value="tienda">Diseño de tienda online</option>
+  <option value="uxui">Diseño UX/UI</option>
+  <option value="otro">Otro</option>
+</select>
 
                 <textarea name="Mensaje" id="mensajes" rows="5" placeholder="Mensaje*" required></textarea>
 
